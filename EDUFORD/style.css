@@ -139,10 +139,10 @@ li{
 }
 .footer{
     padding: 50px;
-    background-color: #121227;
+    background-color: aqua;
     text-align: center;
     width: 100%;
-    color: black;
+    color: blue;
     list-style: none;
    
 }

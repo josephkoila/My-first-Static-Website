@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial scale=1.0">
         <link rel="stylesheet" href="style.css">
+
        
         <title> IT TECH // contact page</title>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("iMqaSfywQLYPOhvWQ");
+   })();
+</script>
     
-    </head>
+    </head> 
     <body>
         <header>
             <div class="main-nav">
@@ -21,7 +31,7 @@
                 </ul>
             </div>
             
-            </div>
+            
         </header>
         <div class="container">
             <div class="description">
@@ -30,30 +40,58 @@
              </h2>
              <p> 
                 we would love to respond to your queries and help you succeed,feel free to get in touch with us<br>
-                Phone Number: +254 740585195<br><br>
-	Email Address: joseph@gmail.com<br><br>
-	P.O.Box:334-20500 Narok<br>
-	
-             </p>
-            </div>
-        <div class="contact-form mb">
-            <form>
-                <form method="post">
-                    <input type="text" placeholder="Enter your Name" required><br><br>
-                    <input type="number" placeholder="Enter phone number"><br><br>	
-                    <input type="email" placeholder="jsd@gmail.com"><br><br>
-                    <textarea rows="6" cols="40" placeholder="comment"></textarea><br><br>
-                    <input type="submit" name="submit" value="Send Now!" onclick="return validation " method="post">
-                
-            </form>
-        </div>
-    </div>
-</div>
-<div id="footer">
-    copyright&copy;josee.com
-    <a href="#">fa fa-Facebook</a>
-	<a href="#">fa fa-twitter</a>
-	<a href="#">fa fa-instagram</a>
+                We are always in the front to ensure that our visitors have enjoyed themselves and have relieve from the activities we provide
+                 make them have fun.We are always previleged to host tourists from everywhere in the continent.we 
+            are looking    forward to always remain at the top and keep giving the best service delivery.
+        Thank you always and welcome back.<br>
+you are free to send us information anytime you are free like you want to visit us.
+        </p>
+           </div>
+            <div class="contact-form mb">
+                <form>
+                   <div class="row">
+                       <div class="input50">
+                           <input type="text" id="First Name" placeholder="First Name">
+                       </div>
+                       <div class="input50">
+                       <input type="text" id="Last Name" placeholder="Last Name">
+                       </div>
+                   </div>
+       
+                   <div class="row">
+                       <div class="input50">
+                           <input type="phonenumber" id="tel" placeholder="tel">
+                       </div>
+                       <div class="input50">
+                       <input type="text" id="email" placeholder="email">
+                       </div>
+                   </div>
+       
+                   <div class="row">
+                       <div class="input100">
+                           <textarea id="comment" placeholder="coment"></textarea>
+                       </div>
+                   </div>
+       
+                   <div class="row">
+                       <div class="input100">
+                           <input type="button" onclick="sendMail()" value="Send"></input>
+                       </div>
+                   </div>
+                </form>
+              </div>  
+              </div>
+        <div class="footer">
+    Mara Leisure Resort        |
+    |     P.O. Box 507, Narok, Kenya    |
+    |  Tel: +254 (0) 7 99579846   |
+    |  Email: maraleisure@gmail.com||
+    |                                   |
+    |        Follow us on social:       |
+    |      Facebook | Twitter | Instagram|
+    |                                   |
+    |        © 2023 Mara Leisure  
+    
 </div>
     </body>
         </html>
